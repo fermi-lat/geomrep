@@ -1,4 +1,4 @@
-// $Header: /cvs/arve/graphics/TubsRep.cxx,v 1.1.1.1 1998/06/19 17:09:47 burnett Exp $
+// $Header: /cvs/cmt/geomrep/src/TubsRep.cxx,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //  Author: Toby Burnett
 // Project: Arve graphics
 //
@@ -8,7 +8,7 @@
 #include "geometry/Tubs.h"
 
 
-static void createPolyLine(ArvePlottableRep* v, Vector a[], unsigned n)
+static void createPolyLine(GraphicsRep* v, Vector a[], unsigned n)
 {
   v->move_to(a[0]);
   for(unsigned i=1;i<n;i++)

@@ -1,4 +1,4 @@
-// $Header: /cvs/arve/graphics/SpheRep.cxx,v 1.1.1.1 1998/06/19 17:09:47 burnett Exp $
+// $Header: /cvs/cmt/geomrep/src/SpheRep.cxx,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //  Author: T. Burnett
 // Project: Arve graphics
 //
@@ -7,7 +7,7 @@
 #include "geomrep/SpheRep.h"
 #include "geometry/Sphe.h"
 
-static void createCircle(ArvePlottableRep& view, const Point& p, double r, const Vector& xhat,
+static void createCircle(GraphicsRep& view, const Point& p, double r, const Vector& xhat,
 const Vector& yhat)
 {
     static const int ns=100;

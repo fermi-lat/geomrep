@@ -1,4 +1,4 @@
-//      $Id: ConeRep.h,v 1.2 1999/05/14 15:34:06 burnett Exp $
+//      $Id: ConeRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //   Author: T. Burnett
 //  Project: Arve graphics
 //
@@ -6,11 +6,11 @@
 
 #ifndef CONEREP_H
 #define CONEREP_H
-#include "graphics/ArvePlottableRep.h"
+#include "graphics/GraphicsRep.h"
 
 class Cone;
 
-class ConeRep : public ArvePlottableRep {
+class ConeRep : public GraphicsRep {
 
 public:
     ConeRep(const Cone& cone):m_cone(cone){};

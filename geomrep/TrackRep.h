@@ -1,13 +1,13 @@
-//  $Header: /cvs/arve/graphics/TrackRep.h,v 1.2 1999/05/14 15:34:13 burnett Exp $
+//  $Header: /cvs/cmt/geomrep/geomrep/TrackRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //   Author: T. Burnett
 
 #ifndef TRACKREP_H
 #define TRACKREP_H
 
-#include "graphics/ArvePlottableRep.h"
+#include "graphics/GraphicsRep.h"
 #include "geometry/Track.h"
 
-class TrackRep : public ArvePlottableRep {
+class TrackRep : public GraphicsRep {
 public:
     TrackRep(const Track& t):m_track(t){}
 

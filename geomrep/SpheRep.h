@@ -1,4 +1,4 @@
-// $Header: /cvs/arve/graphics/SpheRep.h,v 1.2 1999/05/14 15:34:13 burnett Exp $
+// $Header: /cvs/cmt/geomrep/geomrep/SpheRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //  Author: T. Burnett
 // Project: Arve graphics
 //
@@ -7,11 +7,11 @@
 #ifndef TUBEREP_H
 #define TUBEREP_H
 
-#include "graphics/ArvePlottableRep.h"
+#include "graphics/GraphicsRep.h"
 
 class Sphe;
 
-class SpheRep : public ArvePlottableRep {
+class SpheRep : public GraphicsRep {
 
 public:
     SpheRep(const Sphe& s):m_sphe(s){};

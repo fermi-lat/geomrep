@@ -1,4 +1,4 @@
-// $Header: /cvs/arve/graphics/TubeRep.h,v 1.4 1999/08/01 17:15:02 burnett Exp $
+// $Header: /cvs/cmt/geomrep/geomrep/TubeRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //  Author: T. Burnett
 // Project: Arve graphics
 //
@@ -7,12 +7,12 @@
 #ifndef TUBEREP_H
 #define TUBEREP_H
 
-#include "graphics/ArvePlottableRep.h"
+#include "graphics/GraphicsRep.h"
 #include "geometry/Tube.h"
 
 class Shape;
 
-class TubeRep : public ArvePlottableRep {
+class TubeRep : public GraphicsRep {
     
 public:
     TubeRep(const Tube& tube):m_tube(tube){};

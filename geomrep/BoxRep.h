@@ -1,4 +1,4 @@
-//  $Header: /cvs/arve/graphics/BoxRep.h,v 1.3 1999/05/14 15:34:05 burnett Exp $
+//  $Header: /cvs/cmt/geomrep/geomrep/BoxRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //   Author: Toby Burnett
 //  Project: Arve graphics 
 // 
@@ -7,11 +7,11 @@
 #ifndef BOXREP_H
 #define BOXREP_H
 
-#include "graphics/ArvePlottableRep.h"
+#include "graphics/GraphicsRep.h"
 class Hexahedron;
 class Shape;
 
-class BoxRep : public ArvePlottableRep {
+class BoxRep : public GraphicsRep {
     // Represent a Hexahedron with Arve graphics
 public:
     BoxRep(const Hexahedron& box) 

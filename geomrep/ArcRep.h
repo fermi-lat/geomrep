@@ -1,14 +1,14 @@
-//     $Id: ArcRep.h,v 1.2 1999/05/14 15:34:04 burnett Exp $
+//     $Id: ArcRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //  Author: T. Burnett
 // Project: Arve graphics 
 
 #ifndef ARCREP_H
 #define ARCREP_H
-#include "graphics/ArvePlottableRep.h"
+#include "graphics/GraphicsRep.h"
 #include "geometry/Point.h"
 #include "geometry/Vector.h"
 
-class ArcRep : public ArvePlottableRep {
+class ArcRep : public GraphicsRep {
 public:
     ArcRep( const Point& center, double radius, const Vector& xhat,
 	const Vector& yhat, double phi0);

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Sat Oct  6 09:05:50 PDT 2001
+geomrep/src/test testgeom.cxx
+
+Modified Files:
+	testgeom.cxx 
+Log Message:
+fix warning
+    *
+------------------------------------------------------------
 User: burnett  Mon Jul 16 16:59:23 PDT 2001
 geomrep/mgr requirements
 

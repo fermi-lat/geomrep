@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: srobinsn  Wed Jan  9 10:51:59 PST 2002
+geomrep/geomrep
+
+Modified Files:
+	SpheRep.h 
+Log Message:
+
+Added a method to return the Sphe from SpheRep,
+also added and implemented CircRep, the corresponding 
+Circle Representation.
+    *
+------------------------------------------------------------
 User: srobinsn  Wed Jan  9 10:50:37 PST 2002
 geomrep/src
 

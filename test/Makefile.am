@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.4 2000/01/06 18:36:33 pfkeb Exp $
+# $Id: Makefile.am,v 1.5 2000/02/21 22:52:29 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -28,8 +28,7 @@ INCLUDES = -I$(top_srcdir) \
 
 test_LDADDS = \
 	$(top_builddir)/libgeomrep.la \
-	@LIB_MOTIF@	\
-	@LIB_BATCH@	\
+	$(top_builddir)/../graphics/libmotif.la \
 	@LIB_GRAPHICS@	\
 	@LIB_GEOMETRY@	\
 	@LIB_CLHEP@ 	\

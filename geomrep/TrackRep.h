@@ -1,13 +1,13 @@
-//  $Header: /cvs/cmt/geomrep/geomrep/TrackRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/geomrep/geomrep/TrackRep.h,v 1.2 2000/01/18 00:35:04 burnett Exp $
 //   Author: T. Burnett
 
 #ifndef TRACKREP_H
 #define TRACKREP_H
 
-#include "graphics/GraphicsRep.h"
+#include "gui/DisplayRep.h"
 #include "geometry/Track.h"
 
-class TrackRep : public GraphicsRep {
+class TrackRep : public gui::DisplayRep {
 public:
     TrackRep(const Track& t):m_track(t){}
 

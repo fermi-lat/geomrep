@@ -1,13 +1,10 @@
-//     $Id: ArcRep.cxx,v 1.4 1999/08/26 21:00:03 burnett Exp $
+//     $Id: ArcRep.cxx,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //  Author: T. Burnett
 // Project: Arve graphics
 
 
 #include "geomrep/ArcRep.h"
-#ifdef _MSC_VER // for min, max
-# include "CLHEP/config/TemplateFunctions.h"
-#endif
-
+#include <algorithm>
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ArcRep::ArcRep( const Point& center, double radius,

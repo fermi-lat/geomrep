@@ -1,4 +1,4 @@
-//  $Header: /cvs/cmt/geomrep/geomrep/BoxRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
+//  $Header: /nfs/slac/g/glast/ground/cvs/geomrep/geomrep/BoxRep.h,v 1.2 2000/01/18 00:35:03 burnett Exp $
 //   Author: Toby Burnett
 //  Project: Arve graphics 
 // 
@@ -7,11 +7,11 @@
 #ifndef BOXREP_H
 #define BOXREP_H
 
-#include "graphics/GraphicsRep.h"
+#include "gui/DisplayRep.h"
 class Hexahedron;
 class Shape;
 
-class BoxRep : public GraphicsRep {
+class BoxRep : public gui::DisplayRep {
     // Represent a Hexahedron with Arve graphics
 public:
     BoxRep(const Hexahedron& box) 

@@ -1,4 +1,4 @@
-// $Header: /cvs/cmt/geomrep/geomrep/TubsRep.h,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geomrep/geomrep/TubsRep.h,v 1.2 2000/01/18 00:35:05 burnett Exp $
 //  Author: T. Burnett
 // Project: Arve graphics
 //
@@ -6,11 +6,11 @@
 
 #ifndef TUBSREP_H
 #define TUBSREP_H
-#include "graphics/GraphicsRep.h"
+#include "gui/DisplayRep.h"
 
 class Tubs;
 
-class TubsRep : public GraphicsRep {
+class TubsRep : public gui::DisplayRep {
 
 public:
     TubsRep(const Tubs& tubs):m_tubs(tubs){};

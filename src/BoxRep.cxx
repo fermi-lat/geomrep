@@ -1,6 +1,5 @@
-// $Header: /cvs/arve/graphics/BoxRep.cxx,v 1.3 1999/04/15 13:53:39 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geomrep/src/BoxRep.cxx,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //  Author: Toby Burnett
-// Project: Arve graphics
 //
 // Display of any Hexahedron
 

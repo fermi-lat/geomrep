@@ -1,6 +1,5 @@
-// $Header: /cvs/cmt/geomrep/src/TubsRep.cxx,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geomrep/src/TubsRep.cxx,v 1.2 2000/01/18 00:35:05 burnett Exp $
 //  Author: Toby Burnett
-// Project: Arve graphics
 //
 // Display of a Tubs
 
@@ -8,7 +7,7 @@
 #include "geometry/Tubs.h"
 
 
-static void createPolyLine(GraphicsRep* v, Vector a[], unsigned n)
+static void createPolyLine(gui::DisplayRep* v, Vector a[], unsigned n)
 {
   v->move_to(a[0]);
   for(unsigned i=1;i<n;i++)

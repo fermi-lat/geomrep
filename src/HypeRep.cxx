@@ -1,6 +1,5 @@
-// $Header: /cvs/arve/graphics/HypeRep.cxx,v 1.1.1.1 1998/06/19 17:09:46 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geomrep/src/HypeRep.cxx,v 1.1.1.1 1999/12/20 22:28:17 burnett Exp $
 //  Author: Toby Burnett
-// Project: Arve graphics
 //
 // Display of a Hype with Arve Visualization
 

@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Jan  1 19:01:04 PST 2002
+geomrep/src/test
+
+Modified Files:
+	testgeom.cxx 
+Log Message:
+remove unneeded WARNING, FATAL
+    *
+------------------------------------------------------------
 User: burnett  Tue Jan  1 18:59:55 PST 2002
 geomrep/mgr
 

@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: srobinsn  Wed Jan  9 10:49:41 PST 2002
+geomrep/geomrep
+
+Added Files:
+	CircRep.h 
+Log Message:
+
+Representation of a circle
+    *
+------------------------------------------------------------
 User: burnett  Tue Jan  1 19:02:18 PST 2002
 geomrep/src
 

@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.5 2000/02/21 22:52:29 pfkeb Exp $
+# $Id: Makefile.am,v 1.6 2000/02/22 00:10:59 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -26,12 +26,12 @@ INCLUDES = -I$(top_srcdir) \
 	-I$(top_srcdir)/../CLHEP \
 	-I$(glast_prefix)/include
 
-test_LDADDS = \
-	$(top_builddir)/libgeomrep.la \
-	$(top_builddir)/../graphics/libmotif.la \
-	@LIB_GRAPHICS@	\
-	@LIB_GEOMETRY@	\
-	@LIB_CLHEP@ 	\
+test_LDADDS =						\
+	$(top_builddir)/libgeomrep.la			\
+	$(top_builddir)/../graphics/libmotif.la		\
+	$(top_builddir)/../graphics/libgraphics.la	\
+	$(top_builddir)/../geometry/libgeometry.la	\
+	$(top_builddir)/../CLHEP/CLHEP/libCLHEP.a	\
 	$(X_LIBS)
 
 testgeom_LDADD = $(test_LDADDS)

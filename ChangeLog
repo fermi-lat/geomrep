@@ -1,4 +1,15 @@
 ------------------------------------------------------------
+User: burnett  Mon Jan 22 17:40:12 PST 2001
+geomrep/src BoxRep.cxx ConeRep.cxx ConsRep.cxx HypeRep.cxx SpheRep.cxx TubeRep.cxx TubsRep.cxx
+
+Modified Files:
+	BoxRep.cxx ConeRep.cxx ConsRep.cxx HypeRep.cxx SpheRep.cxx 
+	TubeRep.cxx TubsRep.cxx 
+Log Message:
+
+update to gui interface.
+    *
+------------------------------------------------------------
 User: burnett  Mon Jan 22 17:40:11 PST 2001
 geomrep/mgr requirements
 

@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/geomrep/geomrep/SpheRep.h,v 1.2 2000/01/18 00:35:04 burnett Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/geomrep/geomrep/SpheRep.h,v 1.3 2001/01/23 01:40:11 burnett Exp $
 //  Author: T. Burnett
 // Project: Arve graphics
 //
@@ -16,6 +16,7 @@ class SpheRep : public gui::DisplayRep {
 public:
     SpheRep(const Sphe& s):m_sphe(s){};
     void update();
+    const Sphe& returnSphe(){return m_sphe;}
 private:
     const Sphe& m_sphe;
 };

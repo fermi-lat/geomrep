@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.1 1999/12/24 21:20:28 pfkeb Exp $
+# $Id: Makefile.am,v 1.1 1999/12/25 19:08:48 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -10,7 +10,7 @@ AUTOMAKE_OPTIONS = foreign
 
 geomrepincludedir = $(includedir)/geomrep
 
-fluxinclude_HEADERS = \
+geomrepinclude_HEADERS = \
 	ArcRep.h      \
 	BoxRep.h      \
 	ConeRep.h     \

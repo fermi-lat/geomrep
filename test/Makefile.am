@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.3 1999/12/26 21:27:19 pfkeb Exp $
+# $Id: Makefile.am,v 1.1 1999/12/27 23:14:13 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -12,6 +12,14 @@ noinst_PROGRAMS = testgeom
 
 testgeom_SOURCES = testgeom.cxx
 
+# X11 options
+# the following should be added to files including X headers
+X_CFLAGS = @X_CFLAGS@
+
+# the path and X libraries needed
+X_LIBS   = @X_LIBS@ -lXm -lXt -lX11
+X_EXTRA_LIBS = @X_EXTRA_LIBS@
+
 INCLUDES = -I$(top_srcdir) \
 	-I$(top_srcdir)/../geometry \
 	-I$(top_srcdir)/../graphics \
@@ -19,7 +27,13 @@ INCLUDES = -I$(top_srcdir) \
 
 
 test_LDADDS = \
-	$(top_builddir)/src/libgeomrep.la
+	$(top_builddir)/src/libgeomrep.la              \
+	$(top_builddir)/../graphics/motif/libmotif.la  \
+	$(top_builddir)/../graphics/batch/libbatch.la  \
+	$(top_builddir)/../graphics/src/libgraphics.la \
+	$(top_builddir)/../geometry/src/libgeometry.la \
+	$(top_builddir)/../CLHEP/CLHEP/libCLHEP.a      \
+	$(X_LIBS)
 
 testgeom_LDADD = $(test_LDADDS)
 

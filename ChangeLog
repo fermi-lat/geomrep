@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Mon Jan 22 19:07:02 PST 2001
+geomrep/src/test testgeom.cxx
+
+Modified Files:
+	testgeom.cxx 
+Log Message:
+belated fix to new interface
+    *
+------------------------------------------------------------
 User: burnett  Mon Jan 22 17:40:12 PST 2001
 geomrep/src/test testgeom.cxx
 

@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.7 2000/02/22 01:53:46 pfkeb Exp $
+# $Id: Makefile.am,v 1.8 2000/04/05 00:40:08 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -27,7 +27,7 @@ INCLUDES = -I$(top_srcdir) \
 	-I$(glast_prefix)/include
 
 ## The following for the UNIX environment
-test_LDADDS =						\
+testgeom_LDADD =						\
 	$(top_builddir)/libgeomrep.la			\
 	$(top_builddir)/../graphics/libmotif.la		\
 	$(top_builddir)/../graphics/libgraphics.la	\
@@ -35,17 +35,9 @@ test_LDADDS =						\
 	$(top_builddir)/../CLHEP/CLHEP/libCLHEP.a	\
 	$(X_LIBS)
 
-## The following is used by UNIX, but ignorned on Windows
-testgeom_LDADD = $(test_LDADDS)
-
 ## The following for Windows environment
-testgeom_linkopts = \
-	$(top_builddir)/libgeomrep.la			\
-	$(top_builddir)/../graphics/libgraphics.la	\
-	$(top_builddir)/../graphics/libwindows.la	\
-	$(top_builddir)/../geometry/libgeometry.la	\
-	$(top_builddir)/../CLHEP/CLHEP/libCLHEP.a	
-
+testgeom_linkremove = \
+	$(top_builddir)/../graphics/libmotif.la
 
 TESTS = $(noinst_PROGRAMS)
 

@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 #
-# $Id: Makefile.am,v 1.8 2000/04/05 00:40:08 pfkeb Exp $
+# $Id: Makefile.am,v 1.9 2000/04/13 23:22:34 pfkeb Exp $
 #
 # Author: Paul_Kunz@slac.stanford.edu
 #
@@ -38,6 +38,9 @@ testgeom_LDADD =						\
 ## The following for Windows environment
 testgeom_linkremove = \
 	$(top_builddir)/../graphics/libmotif.la
+
+testgeom_linkopts = \
+	$(top_builddir)/../graphics/libwindows.la
 
 TESTS = $(noinst_PROGRAMS)
 

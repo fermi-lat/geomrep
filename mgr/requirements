@@ -1,14 +1,13 @@
 package geomrep
 
-version v3r2
-#$Header:$
+version v4
+#$Header: /nfs/slac/g/glast/ground/cvs/geomrep/mgr/requirements,v 1.26 2001/07/16 23:59:23 burnett Exp $
 
 use geometry 
 use gui
 
 use GlastPolicy
 
-ignore_pattern include_none
 apply_pattern package_include
 apply_pattern package_linkopts
 apply_pattern package_headers

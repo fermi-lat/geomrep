@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: burnett  Tue Jan  1 18:59:55 PST 2002
+geomrep/mgr
+
+Modified Files:
+	requirements 
+Log Message:
+update version; fix include
+    *
+------------------------------------------------------------
 User: burnett  Sat Oct  6 09:05:50 PDT 2001
 geomrep/src/test testgeom.cxx
 

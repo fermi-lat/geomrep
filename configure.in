@@ -1,12 +1,13 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_REVISION($Revision: 1.1 $)
+AC_REVISION($Revision: 1.2 $)
 
 AC_INIT(src/TrackRep.cxx)
 AC_CONFIG_AUX_DIR(config)
 AM_INIT_AUTOMAKE(geomrep, 1.0)
 
 dnl Checks for programs.
+AC_PROG_CC
 AC_PROG_CXX
 
 AC_PATH_XTRA

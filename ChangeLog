@@ -1,0 +1,11 @@
+------------------------------------------------------------
+User: burnett  Mon Jan 22 17:40:11 PST 2001
+geomrep/geomrep ArcRep.h BoxRep.h ConeRep.h ConsRep.h HypeRep.h PointRep.h SpheRep.h TrackRep.h TubeRep.h TubsRep.h
+
+Modified Files:
+	ArcRep.h BoxRep.h ConeRep.h ConsRep.h HypeRep.h PointRep.h 
+	SpheRep.h TrackRep.h TubeRep.h TubsRep.h 
+Log Message:
+
+update to gui interface.
+    *

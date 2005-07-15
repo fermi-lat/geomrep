@@ -1,8 +1,8 @@
 package geomrep
-version v4r1
+version v4r2p1
 author T.Burnett <tburnett@u.washington.edu>
 
-#$Header: /nfs/slac/g/glast/ground/cvs/geomrep/mgr/requirements,v 1.28 2002/01/13 22:03:04 burnett Exp $
+#$Header: /nfs/slac/g/glast/ground/cvs/geomrep/mgr/requirements,v 1.29 2005/07/15 22:21:43 golpa Exp $
 
 use geometry 
 use gui

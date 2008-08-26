@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Tue Aug 26 15:00:19 PDT 2008
+GlastRelease-scons/geomrep
+
+Added Files:
+	SConscript 
+Log Message:
+Added SConscript file.
+    *
+------------------------------------------------------------
 TAG
 Tag name: geomrep-04-03-00, operation: add
 Package: geomrep

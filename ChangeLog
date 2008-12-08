@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: geomrep-04-03-00, operation: add
+Package: geomrep
+User: ecephas  Mon Dec  8 13:40:40 2008
+Files:
+  geomrep/SConscript  1.2
+  geomrep/SConscript  1.2
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Dec  8 13:40:34 PST 2008
 GlastRelease-scons/geomrep
 

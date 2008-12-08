@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 13:40:34 PST 2008
+GlastRelease-scons/geomrep
+
+Modified Files:
+	SConscript 
+Log Message:
+Check in SConscript for geomrep v4r3 (for branch-tag, GlastReleasev15r49) 
+    *
+------------------------------------------------------------
 User: ecephas  Tue Aug 26 15:01:44 PDT 2008
 GlastRelease-scons/geomrep
 

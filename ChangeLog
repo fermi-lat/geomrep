@@ -2,6 +2,16 @@
 TAG
 Tag name: geomrep-04-03-00, operation: add
 Package: geomrep
+User: ecephas  Mon Dec  8 16:08:54 2008
+Files:
+  geomrep/geomrepLib.py  1.1
+  geomrep/geomrepLib.py  1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: geomrep-04-03-00, operation: add
+Package: geomrep
 User: ecephas  Mon Dec  8 13:40:40 2008
 Files:
   geomrep/SConscript  1.2

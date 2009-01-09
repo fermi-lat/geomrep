@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-15-49-00, operation: add
+Package: geomrep
+User: glastrm  Fri Jan  9 13:29:37 2009
+Files:
+  geomrep/geomrepLib.py  1.1
+  geomrep/SConscript  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-15-50-10, operation: del
 Package: geomrep
 User: glastrm  Fri Jan  9 08:31:38 2009

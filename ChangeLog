@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Thu Aug  6 17:51:54 PDT 2009
+GlastRelease-scons/geomrep
+
+Modified Files:
+	.cvsignore SConscript geomrepLib.py 
+Log Message:
+use registerTargets
+put everything in geomrepLib that belongs there
+add SCons derived stuff to .cvsignore
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 09:52:12 PDT 2009
 geomrep/doc
 

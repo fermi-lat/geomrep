@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:45:30 PDT 2010
+GlastRelease-scons/geomrep
+
+Modified Files:
+	SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: geomrep-04-03-01, operation: add
 Package: geomrep

@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/geomrep/SConscript,v 1.4 2009/08/07 00:51:54 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/geomrep/SConscript,v 1.5 2009/11/06 01:56:46 jrb Exp $
 # Authors: T.Burnett <tburnett@u.washington.edu>
 # Version: geomrep-04-03-01
 Import('baseEnv')
@@ -7,8 +7,6 @@ Import('listFiles')
 Import('packages')
 progEnv = baseEnv.Clone()
 libEnv = baseEnv.Clone()
-
-libEnv.Tool('geomrepLib', depsOnly = 1)
 
 geomrep = libEnv.StaticLibrary('geomrep', listFiles(['src/*.cxx']))
 

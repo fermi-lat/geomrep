@@ -2,6 +2,30 @@
 TAG
 Tag name: GlastRelease-19-03-07, operation: add
 Package: geomrep
+User: heather  Wed Sep  7 10:19:56 2011
+Files:
+  geomrep/mgr/.cvsignore  1.7
+  geomrep/mgr/requirements  1.31
+  geomrep/mgr/Makefile  1.3
+  geomrep/src/TubsRep.cxx  1.3
+  geomrep/src/HypeRep.cxx  1.2
+  geomrep/src/ConeRep.cxx  1.3
+  geomrep/src/SpheRep.cxx  1.3
+  geomrep/src/CircRep.cxx  1.1
+  geomrep/src/BoxRep.cxx  1.2
+  geomrep/src/TubeRep.cxx  1.3
+  geomrep/src/TrackRep.cxx  1.1.1.1
+  geomrep/src/mainpage.h  1.1
+  geomrep/src/PointRep.cxx  1.1.1.1
+  geomrep/src/ArcRep.cxx  1.2
+  geomrep/src/ConsRep.cxx  1.3
+  geomrep/src/test/testgeom.cxx  1.5
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-19-03-07, operation: add
+Package: geomrep
 User: heather  Wed Sep  7 10:19:45 2011
 Files:
   geomrep/.cvsignore  1.12

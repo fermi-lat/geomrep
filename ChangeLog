@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Mon Jan 16 13:43:57 PST 2012
+geomrep
+
+Modified Files:
+	SConscript 
+Log Message:
+minor updates for windows
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr17, operation: add
 Package: geomrep

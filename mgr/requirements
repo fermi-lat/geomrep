@@ -1,8 +1,8 @@
 package geomrep
-version v4r3
+version v4r3p3
 author T.Burnett <tburnett@u.washington.edu>
 
-#$Header: /nfs/slac/g/glast/ground/cvs/geomrep/mgr/requirements,v 1.30 2005/07/15 23:22:56 golpa Exp $
+#$Header: /nfs/slac/g/glast/ground/cvs/geomrep/mgr/requirements,v 1.31 2006/03/24 14:42:30 burnett Exp $
 
 use geometry 
 use gui
@@ -19,6 +19,7 @@ library geomrep -no_share *.cxx ${geomrep_headers}
 
 # set up application link-options for test program. Note also the resource
 
-macro_append gui_linkopts $(guiapp_linkopts)
+
+macro_append gui_linkopts $(guiapp_nomain_linkopts)
 
 application testgeom test/testgeom.cxx ${Win32Resource}

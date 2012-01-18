@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Wed Jan 18 08:05:29 PST 2012
+geomrep
+
+Modified Files:
+	SConscript 
+Log Message:
+patch for win unit test
+    *
+------------------------------------------------------------
 TAG
 Tag name: geomrep-04-03-03, operation: add
 Package: geomrep

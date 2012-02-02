@@ -1,5 +1,48 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr21, operation: add
+Package: geomrep
+User: heather  Thu Feb  2 05:15:59 2012
+Files:
+  geomrep/.cvsignore  1.12
+  geomrep/geomrepLib.py  1.2
+  geomrep/ChangeLog  1.96
+  geomrep/acinclude.m4  1.1
+  geomrep/SConscript  1.9
+  geomrep/autogen  1.1
+  geomrep/doc/release.notes  1.10
+  geomrep/doc/index.html  1.1
+  geomrep/geomrep/SpheRep.h  1.4
+  geomrep/geomrep/ConsRep.h  1.3
+  geomrep/geomrep/HypeRep.h  1.3
+  geomrep/geomrep/TubsRep.h  1.3
+  geomrep/geomrep/ArcRep.h  1.3
+  geomrep/geomrep/ConeRep.h  1.3
+  geomrep/geomrep/BoxRep.h  1.3
+  geomrep/geomrep/CircRep.h  1.1
+  geomrep/geomrep/PointRep.h  1.4
+  geomrep/geomrep/TubeRep.h  1.3
+  geomrep/geomrep/TrackRep.h  1.3
+  geomrep/mgr/.cvsignore  1.7
+  geomrep/mgr/requirements  1.33
+  geomrep/mgr/Makefile  1.3
+  geomrep/src/TubsRep.cxx  1.3
+  geomrep/src/HypeRep.cxx  1.2
+  geomrep/src/ConeRep.cxx  1.3
+  geomrep/src/SpheRep.cxx  1.3
+  geomrep/src/CircRep.cxx  1.1
+  geomrep/src/BoxRep.cxx  1.2
+  geomrep/src/TubeRep.cxx  1.3
+  geomrep/src/TrackRep.cxx  1.1.1.1
+  geomrep/src/mainpage.h  1.1
+  geomrep/src/PointRep.cxx  1.1.1.1
+  geomrep/src/ArcRep.cxx  1.2
+  geomrep/src/ConsRep.cxx  1.3
+  geomrep/src/test/testgeom.cxx  1.5
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-gr20, operation: add
 Package: geomrep
 User: heather  Wed Feb  1 12:10:39 2012

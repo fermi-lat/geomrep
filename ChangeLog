@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May  3 09:21:54 PDT 2012
+geomrep
+
+Modified Files:
+	SConscript 
+Log Message:
+add in def of WinMain
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr30, operation: add
 Package: geomrep

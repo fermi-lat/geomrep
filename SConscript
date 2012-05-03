@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/geomrep/SConscript,v 1.8 2012/01/16 21:43:57 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/geomrep/SConscript,v 1.9 2012/01/18 16:05:29 heather Exp $
 # Authors: T.Burnett <tburnett@u.washington.edu>
-# Version: geomrep-04-03-04
+# Version: geomrep-04-03-05
 Import('baseEnv')
 Import('listFiles')
 Import('packages')

@@ -1,8 +1,8 @@
 package geomrep
-version v4r3p4
+version v4r3p5
 author T.Burnett <tburnett@u.washington.edu>
 
-#$Header: /nfs/slac/g/glast/ground/cvs/geomrep/mgr/requirements,v 1.32 2012/01/16 21:43:57 heather Exp $
+#$Header: /nfs/slac/g/glast/ground/cvs/geomrep/mgr/requirements,v 1.33 2012/01/18 16:05:29 heather Exp $
 
 use geometry 
 use gui
@@ -16,6 +16,9 @@ apply_pattern package_headers
 private
 
 library geomrep -no_share *.cxx ${geomrep_headers}
+
+macro WinMain "" \
+  WIN32 " ${gui_root}\src\WinMain.cxx "
 
 # set up application link-options for test program. Note also the resource
 
